@@ -18,5 +18,8 @@ allprojects {
         maven {
             url 'http://dl.bintray.com/esri/arcgis'
         }
+        flatDir {
+            dirs 'libs'
+        }
     }
 }

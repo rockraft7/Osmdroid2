@@ -26,9 +26,15 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:22.2.0'
-    compile 'org.osmdroid:osmdroid-android:4.2'
+
+    compile(name:'osmbonuspack_v5.2', ext:'aar')
+    compile 'org.osmdroid:osmdroid-android:4.3'
     compile 'org.slf4j:slf4j-simple:1.6.1'
+    compile 'com.android.support:support-v4:22.2.0'
+    compile 'org.apache.commons:commons-lang3:3.3.2'
+    compile 'com.google.code.gson:gson:2.3'
+    
+    compile 'com.android.support:appcompat-v7:22.2.0'
     compile 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
     compile 'com.esri.arcgis.android:arcgis-android:10.2.6'
 }

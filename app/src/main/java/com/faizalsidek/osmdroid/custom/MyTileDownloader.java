@@ -37,6 +37,7 @@ import javax.net.ssl.TrustManagerFactory;
  */
 public class MyTileDownloader extends MapTileModuleProviderBase {
     private static final String TAG = "MyMapTileDownloader";
+    private static final int MAXIMUM_ZOOMLEVEL = 20;
 
     protected OnlineTileSourceBase mTileSource;
     protected final IFilesystemCache mFilesystemCache;
